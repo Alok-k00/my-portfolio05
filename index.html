@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a5f7b4f6b5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                
+                <h1>Hi I'm <span>Alok_kr_Pandey</span><br></h1>
+                <p>Full Stack Developer</p><br>
+            </div>
+
+
+
+            <!-- <div class="container">
+                <button id="btn" onclick="toggleHide()">Show/Hide</button>
+                <p id="para">Full-stack developers are the Swiss Army knives of the tech world.<br> With expertise spanning
+                    front-end to back-end technologies,<br> they effortlessly switch hats in a rapidly evolving
+                    landscape.<br> Their adaptability, holistic problem-solving, and efficiency<br> make them
+                    indispensable collaborators. From rapid prototyping<br> to cost-effective solutions,full-stack
+                    developers shine as versatile, creative,<br> and essential contributors to innovative software
+                    development projects.</p>
+                </div> -->
+            <!-- <button id="btn" onclick="toggleHide()">Show/Hide</button> -->
+
+
+
+             <div class="alok">
+                <p>Full-stack developers are the Swiss Army knives of the tech world.<br> With expertise spanning
+                    front-end to back-end technologies,<br> they effortlessly switch hats in a rapidly evolving
+                    landscape.<br>Their adaptability, holistic problem-solving, and efficiency<br>make them
+                    indispensable collaborators.From rapid prototyping<br> to cost-effective solutions,full-stack
+                    developers shine as versatile.</p>
+            </div>
+        </div>
+        
+    </div>
+
+    </div>
+   
+
+
+    <!-- -----------------About Section ----------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="alok06.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <div class="alook">
+                        <p>"My name is Alok_kr_Pandey, and I'm a student at Parul University working for an MCA with a
+                            focus in Full Stack Web Development. My passion is creating intuitive web solutions that
+                            seamlessly combine style and functionality. With knowledge of both front-end and back-end
+                            technologies, I'm dedicated to developing user-centric web experiences that push the limits
+                            of what's possible on the web. </p>
+                    </div>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>
+                                <span>
+                                    HTML,
+                                    CSS,
+                                    JavaScript,
+                                    Python,
+                                    UI & UX,<br><br>
+                                    Bootstrap,
+                                    PHP,
+                                    MongoDB
+                                    node js,
+                                    C,<br><br>
+                                    java,
+                                    Sql,
+                                    Web Designer,
+                                    GitHub
+                                </span>
+                            </li>
+                            <li><span>FSW</span><br>Full Stack Web Developer</li>
+                            <li><span>Android</span><br>Mobile Apps Development</li>
+                            <li><span>WEB</span><br>Web Application Developer</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+
+                            <!-- <li><span>1/4/2022 - 30/4/2022</span><br>Dot Net Technology with SQL Server Internship at Zivaan Marketplace(P) Ltd</li> -->
+                            <li><span>10/12/2023</span><br>Internship at Web Development from BHARAT INTARN</li>
+                            <li><span>10/12/2023-</span><br>Blog website Using HTML CSS JavaScript NodeJS Mongodb</li>
+
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+
+                            <li><span>pursuing </span><br>Master of Computer Applications(MCA) 2022-2024 Parul University
+                                Vadodara India, Specialization: Full Stack Web Development.</li>
+
+                            <li><span>2019-2022</span><br>Bachelor of Computer Applications (BCA) MKL University MP
+                                India , Percentage: 77.63%</li>
+
+
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- --------------------------------Services -------------------------------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p> As a web developer, I code dynamic and responsive websites. I blend creativity with technical expertise, ensuring user-friendly and visually appealing digital experiences. Explore my portfolio for diverse web development projects. </p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>Python Developer</h2>
+                    <p>As a Python developer, I craft dynamic, user-friendly software. With expertise in Python's versatility, I create functional and visually appealing applications. Explore my portfolio for innovative Python-powered projects.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Web Design</h2>
+                    <p>As a web designer, I shape visually stunning and user-centric websites. With a keen eye for design principles, I create aesthetically pleasing and intuitive digital experiences. Explore my portfolio for diverse and creative web designs.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                
+                <div>
+                    <i class="fa-brands fa-android"></i>
+                    <h2>Android Developer</h2>
+                    <p>As an Android developer, I craft innovative mobile solutions. Utilizing Android's capabilities, I prioritize seamless functionality and user-friendly experiences. Stay tuned for my diverse portfolio showcasing creative and impactful Android projects.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+            
+
+                <div>
+                    <i class="fa-brands fa-java"></i>
+                    <h2>Java Developer</h2>
+                    <p>As a Java developer, I engineer dynamic software solutions. Harnessing Java's power, I prioritize functionality and aesthetics. Stay tuned for a diverse portfolio showcasing innovative Java projects.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+
+
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Dot Net Developer</h2>
+                    <p>As a .NET developer, I create robust, user-friendly software solutions. Using the .NET framework, I blend functionality with aesthetics. Stay tuned for my diverse portfolio showcasing impactful .NET projects.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- ------------------------------------Portfolio--------------------------------------------------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+
+
+
+                <div class="work">
+                    <img src="photo1.png">
+
+                    <div class="layer">
+                        <h3>Social Medial App</h3>
+                        <p>The app connects you to the talented people around the world.
+                            Download it from play store.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                </div>
+
+                <div class="work">
+                    <img src="photo2.png">
+
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects you to the talented people around the world.
+                            Download it from play store.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                </div>
+
+                <div class="work">
+                    <img src="photo3.png">
+
+                    <div class="layer">
+                        <h3>Online Shopping app</h3>
+                        <p>The app connects you to the talented people around the world.
+                            Download it from play store.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                </div>
+            </div>
+
+            <a href="#" class="btn"> See More</a>
+            
+            <div class="idea">
+                <img src="ideas.avif">
+               
+                <p>
+                    A developer can create a dynamic personal portfolio website, showcasing skills and projects. Implementing features like project galleries, a resume section, and contact forms demonstrates proficiency while providing an online presence for career advancement and networking..
+                </p>
+                    
+                <hr style="width:50%;text-align:left;margin-left:0">
+
+             </div> 
+             </div>
+             </div>
+            
+
+
+
+
+    <!-- ------------------------------------------------------------contact-------------------------------------------------------- -->
+
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-envelope"></i>alokpandey3819@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone"></i>+91 9565059836</p>
+                    <div class="social-icons">
+
+
+                        <a id="linkedin-icon" href="#"><i class="fa-brands fa-linkedin"></i></a>
+
+                        <a id="facebook-icon" href="#"><i class="fa-brands fa-facebook"></i></a>
+
+                        <a id="instagram-icon" href="#"><i class="fa-brands fa-instagram"></i></a>
+
+                        <a id="github-icon" href="#"><i class="fa-brands fa-github"></i></a>
+
+
+
+                    </div>
+
+                    <a href="Alok's Resume (2).pdf" download class="btn btn2">Download CV</a>
+
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="Email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                       
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>copyright @ <b>Alok</b> Industries <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+    <div class="contact1">
+    <marquee>If you want to create a responsive websites, you can contact me through the Email. I will give you beter response, Thanks for visiting have a Great Day.</marquee>
+    </div>
+
+
+
+
+
+
+
+    <script>
+
+//for creating a button click this is javaScript and html is up side just down of title full stack
+    //     let para = document.getElementById('para');
+    //     para.addEventListener('mouseover', function run(){
+    //         console.log('Mouse Inside')
+    //     });
+
+    //     para.addEventListener('mouseout', function run(){
+    //         console.log('Mouse now went outside')
+    //     });
+
+
+    // function toggleHide(){
+    //     // let btn = document.getElementById('btn');
+    //     let para = document.getElementById('para'); 
+    //     if(para.style.display != 'none'){
+    //     para.style.display = 'none';
+    //     }
+    //     else{
+    //     para.style.display = 'block';
+    //     }
+    // }
+    
+
+
+
+
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-links");
+            }
+
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-links");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+
+    </script>
+
+
+    <script>
+
+        var sidemnu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemnu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemnu.style.right = "-200px";
+        }
+
+
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbySLESdCJS1xetr99KGdCuB2_GlIH61wRMPsS1e4dTzp8M__9ZIEw3tdHGjSMBPEWYQHw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent Successfuly"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+
+
+        //  -----------------------------for linkedin---------------------------
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const linkedinIcon = document.getElementById("linkedin-icon");
+
+            linkedinIcon.addEventListener("click", function (event) {
+                event.preventDefault();
+                // Replace this URL with your LinkedIn profile URL
+                const linkedinProfileURL = "https://www.linkedin.com/in/alok-kumar-pandey-291743266/";
+                window.open(linkedinProfileURL, "_blank");
+            });
+        });
+
+        // --------------------------for facebook url -----------------
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const facebookIcon = document.getElementById("facebook-icon");
+
+            facebookIcon.addEventListener("click", function (event) {
+                event.preventDefault();
+                // Replace this URL with your Facebook profile URL
+                const facebookProfileURL = "https://www.facebook.com/alokkumar.pandey.9638?mibextid=9R9pXO";
+                window.open(facebookProfileURL, "_blank");
+            });
+        });
+
+
+        // ------------------------for instagram url link redict-------------------
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const instagramIcon = document.getElementById("instagram-icon");
+
+            instagramIcon.addEventListener("click", function (event) {
+                event.preventDefault();
+                // Replace this URL with your Instagram profile URL
+                const instagramProfileURL = "https://www.instagram.com/alok_kr_pandey_?igsh=MXJlN2F5eml0dzhycQ==";
+                window.open(instagramProfileURL, "_blank");
+            });
+        });
+
+
+
+        // ----------------------for github url -----------------------
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const githubIcon = document.getElementById("github-icon");
+
+            githubIcon.addEventListener("click", function (event) {
+                event.preventDefault();
+                // Replace this URL with your GitHub profile URL
+                const githubProfileURL = "https://github.com/dashboard";
+                window.open(githubProfileURL, "_blank");
+            });
+        });
+
+
+
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
